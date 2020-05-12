@@ -1,4 +1,3 @@
-# marvel-netifly
+# marvel on netifly
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0b6e80fd-1835-435e-8659-8440f5f264fa/deploy-status)](https://app.netlify.com/sites/appmarvel-react/deploys)
-# marvel-reacthooks
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0bde4054-a3ac-45c6-8987-ca1dd778c0c9/deploy-status)](https://app.netlify.com/sites/marvel-reacthooks/deploys)
