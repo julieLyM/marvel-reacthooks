@@ -1,6 +1,6 @@
 import axios from 'axios';
 import md5 from 'md5';
-import { auth } from '../utils/AUTH';
+import { auth } from '../utils/auth.js';
 
 export const createMarvelHash = (ts) => {
   return md5(`${ts}${auth.privateKey}${auth.publicKey}`);
@@ -54,7 +54,6 @@ export const getCharacterById = async (id) => {
       ...generatorMarvelAuth(),
     },
   });
-  console.log(character);
   return character;
 };
 
@@ -71,7 +70,6 @@ export const getCharacterByIdComic = async (id) => {
       },
     }
   );
-  console.log(character);
   return character;
 };
 
@@ -100,7 +98,6 @@ export const getComic = async (id) => {
       ...generatorMarvelAuth(),
     },
   });
-  console.log(comic);
   return comic;
 };
 

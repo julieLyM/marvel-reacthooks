@@ -57,6 +57,6 @@ export const ImgLogo = styled.img`
   width: 200px;
   transition: transform 300ms ease-in-out;
   &:hover {
-    transform: scale(2,2);
+    background-color: rgba(255, 255, 255, 0.7);
   }
 `;

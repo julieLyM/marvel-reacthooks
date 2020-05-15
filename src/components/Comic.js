@@ -10,7 +10,6 @@ export const Comic = () => {
   useEffect(() => {
     const fetchComic = async () => {
       const data = await getCharacterByIdComic(id);
-      console.log(data);
       setComic(data);
     };
     fetchComic();

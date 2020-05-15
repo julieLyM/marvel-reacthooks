@@ -11,7 +11,12 @@ import {
   CardCharacter,
 } from './style/characterStyle';
 
-import { MainHomeContainer, BlocLoading, ButtonLeft } from './style/homeStyle';
+import {
+  MainHomeContainer,
+  BlocLoading,
+  ButtonLeft,
+  Text,
+} from './style/homeStyle';
 
 export const Character = () => {
   const [person, setPerson] = useState([]);
@@ -58,7 +63,7 @@ export const Character = () => {
                   width: '50%',
                 }}
               >
-                <h2>{elem.name}</h2>
+                <Text>{elem.name}</Text>
                 <p>{elem.description}</p>
               </div>
 
